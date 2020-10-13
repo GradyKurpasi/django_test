@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'django-test-gk'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4e6f8dbf19af48fdb1091f94889a497f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d0c1b02d4383491bbb809da6e4d83511 }}
