@@ -25,8 +25,8 @@ SECRET_KEY = 'j3$@3=#^(c%zn$$*y)yh+9=*ft@t4q$9pde28*^m^0p!9@o+*0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-"ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else []
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else []
+#ALLOWED_HOSTS = ['*']
 
 
 # Application definition
